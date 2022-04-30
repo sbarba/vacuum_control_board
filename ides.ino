@@ -46,7 +46,7 @@ void loop(){
             client.println("<html>");
             client.println("<head>");
             client.println("<title>IDES</title>");
-            client.println("<link rel='icon' href='data:,'>"); // Supress favico request.
+            client.println("<link rel='icon' href='data:,'>"); // Suppress favico request.
   
             client.println("<script type='text/javascript'>");
             client.println("  function toggle_valve(v) {");
